@@ -28,14 +28,26 @@ If not, install Node.js using the following commands:
 curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
-🛠️ Setup Instructions
-Follow the steps below to set up and run the test on your Evernode server.
+🚀 Quick Start
+1. Clone the Repository
+```
+git clone https://github.com/YOUR_USERNAME_HERE/reputation-pow-test.git
+cd reputation-pow-test
+
+```
+> Replace **YOUR_USERNAME_HERE** with the your GitHub username.
+2. Run the Test
+```
+node local_pow_test.js
+
+```
+🛠️ Manual Setup (Alternative)
+If you'd rather copy the script manually, follow these steps:
 
 **1. Create a Directory for the Test**
 ```
 mkdir ~/pow-test
 ```
-
 
 **2. Set Directory Permissions**
 Set the permissions to allow read, write, and execute access for the user:
