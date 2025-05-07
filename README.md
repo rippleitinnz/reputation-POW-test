@@ -21,6 +21,21 @@ Before running the test, verify that Node.js is installed:
 ```
 node -v
 ```
+If you see a version number (e.g., v16.20.0), you're good to go.
+
+If not, install Node.js using the following commands:
+```
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+🛠️ Setup Instructions
+Follow the steps below to set up and run the test on your Evernode server.
+
+1. Create a Directory for the Test
+```
+mkdir ~/pow-test
+```
+
 
 2. Set Directory Permissions
 Set the permissions to allow read, write, and execute access for the user:
