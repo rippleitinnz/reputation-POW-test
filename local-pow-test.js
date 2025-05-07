@@ -4,7 +4,7 @@ const os = require('os');
 
 const LEDGER_HASH = "58f1c9aa220ebb91bf1d623a3fa6578b53811f207c115588e2263a2747b4c168";
 const PUBKEY_HEX = "ed4758c4c388a93617708d00a53823f661d309712d354428b4f825e021b6e3f416";
-const FILE_SIZE = 500 * 1024 * 1024;Math.floor(0.5 * 1024 * 1024 * 1024);
+const FILE_SIZE = Math.floor(0.5 * 1024 * 1024 * 1024);
 
 async function runPowTest(lgrhex, pubkeyhex) {
     // File init
