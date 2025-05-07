@@ -29,14 +29,14 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 🚀 Quick Start
-1. Clone the Repository
+**1. Clone the Repository**
 ```
 git clone https://github.com/YOUR_USERNAME_HERE/reputation-pow-test.git
 cd reputation-pow-test
 
 ```
 > Replace **YOUR_USERNAME_HERE** with the your GitHub username.
-2. Run the Test
+**2. Run the Test**
 ```
 node local_pow_test.js
 
